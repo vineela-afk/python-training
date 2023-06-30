@@ -1,6 +1,7 @@
 s= int(input("Enter the Money: "))
 if s%2000==0:
     t=s//2000-1
+    
     s-=2000*t
 if s%500==0:
     f=s//500-1

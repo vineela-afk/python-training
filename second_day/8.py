@@ -1,8 +1,7 @@
-s= input("Enter String  : ")
-a= int(input("Enter the number: "))
-b=int(input("Enter the number: "))
-l=list(s)
-temp=l[a]
-l[a]=l[b]
-l[b]=temp
-print(''.join(l))
+s = input("Enter String  : ")
+a = int(input("Enter the number 1: "))
+b = int(input("Enter the number 2: "))
+list_name = list(s)
+temp = list_name[a]
+list_name[a] = list_name[b]
+print(''.join(list_name))

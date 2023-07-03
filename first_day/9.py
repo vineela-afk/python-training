@@ -6,5 +6,5 @@ for index, ele in enumerate(s):
         t += ele
     else:
         index += 1
-    
+
 print(t)

@@ -1,16 +1,15 @@
-n = int(input("Enter number: "))
+num = int(input("Enter number: "))
 
 
-def generator_func(n):
+def generator_func(number):
     '''
     this generates the values from1 to n
     '''
     value = 1
-    while value <= n:
+    while value <= number:
         yield value
         value += 1
 
 
-for value in generator_func(n):
-    print(value)
-    
+for output in generator_func(num):
+    print(output)

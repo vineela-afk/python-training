@@ -4,6 +4,7 @@ from my_package import Circle, Square, Rectangle
 try:
     length1 = float(input("Enter length  of shape 1: "))
     breadth1 = float(input("Enter breadth of shape 1: "))
+    
     length2 = float(input("Enter length of shape 2: "))
     breadth2 = float(input("Enter breadth of shape 2: "))
 except ValueError:

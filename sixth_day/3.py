@@ -2,12 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-def check_phishing_url(url):
-    # Your logic to check if the URL is a phishing URL or not
-    # Retrieve the information from the CSV file or any other data source
-    # Return the appropriate is_valid value
-    
-    # Example implementation:
+def check_phishing_url(url):    
     if url == "https://google.com":
         return "yes"
     elif url == "https://dummy.com":

@@ -9,7 +9,7 @@ def check_phishing_url(url):
     params = {
         "url": url,
         "format": "json",
-        "app_key": "<YOUR_PHISHTANK_APP_KEY>"
+        "app_key": "<APP_KEY>"
     }
     try:
         response = requests.post(PHISHTANK_API_URL, data=params, verify=False)
@@ -21,13 +21,3 @@ def check_phishing_url(url):
         return f"{url} is not a phishing URL."
     except requests.exceptions.RequestException as e:
         return f"An error occurred: {str(e)}"
-
-
-def demo():
-    url = input("Enter a URL to check if it is a phishing URL: ")
-    result = check_phishing_url(url)
-    print(result)
-
-
-# Run the demo function
-demo()

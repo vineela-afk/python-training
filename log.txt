@@ -1,0 +1,7 @@
+INFO - Checking files in folder: /home/techno-530/Downloads/python-training/fifth_day
+INFO - File found: /home/techno-530/Downloads/python-training/fifth_day/1.py
+INFO - Checking files in folder: /home/techno-530/Downloads/python-training/sixth_day
+INFO - File found: /home/techno-530/Downloads/python-training/sixth_day/2.py
+ERROR - Error: File not found
+CRITICAL - hel
+CRITICAL - hel
